@@ -1,0 +1,588 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width:100%;
+ 
+}
+
+.bg-header{
+    background: #F5F4F2;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.head-contact{
+    display: flex;
+    gap: 13px;
+}
+
+.head-contact a{
+  font-family:'Noto Sans', sans-serif;
+  font-size: 13px;
+  color: #2E2A4D;
+  text-decoration: none;
+  padding: 13px 0px;
+}
+
+.head-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 15px;
+}
+
+.bg-navbar{
+    background: #2E2A4D;
+}
+
+.head-nav{
+    display: flex;
+    justify-content: center;
+    gap:75px;
+}
+
+.head-nav a{
+    color:white;
+    text-decoration: none;
+    padding:20px 0px;
+    border-top:2px solid transparent
+
+}
+
+.head-nav a:hover{
+    border-top:2px solid white
+}
+
+.bg-banner{
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-773.png);
+}
+
+.banner-text{
+    width: 40%;
+    color: #574CAE;
+    line-height: 1.8;
+    letter-spacing: normal;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: none;
+    font-family:roboto, sans-serif;
+ 
+}
+
+.container-top{
+    width: 100%;
+    height: 50px;
+    padding-left: 100px;
+    background-color: #f5f4f2;
+    color: #2e2a4d;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-top p{
+    padding:0px  20px;
+    border-right: 1px solid black;
+}
+
+.container-logo{
+    width: 100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box{
+    width: 90%;
+    text-align: center;
+}
+
+.search-box{
+    width: 10%;
+}
+
+.container-navbar{
+    max-width: 100%;
+}
+
+.body-box{
+    height: 100%;
+    background-color: #2e2a4d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+
+.body-box a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 0;
+    border-top: 2px solid transparent;
+}
+
+.body-box a:hover{
+    border-top: 2px solid white;
+}
+
+.container-photo{
+    max-width: 100%;
+    height: 780px;
+    background-image:url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-773.png);
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}  
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+.heading{
+    width: 50%;
+    padding-left: 70px;
+} 
+
+.head-img{
+    width: 50%;
+    padding-bottom: 0;
+}
+
+.head{
+    color: #574cae;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+}
+
+.head2{
+    font-size: 48px;
+    color: #2a2e4d;
+    margin: 30px 0;
+
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: #2a2e4d;
+    color: white;
+    font-family:  "Noto Sans", sans-serif;
+    border-radius: 50px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.container-features{
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+.box-features{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid gainsboro;
+}
+
+.features-font{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px 0;
+}
+
+.container-ads{
+    max-width: 90%;
+    margin: 50px auto;
+}
+
+.box-ads1{
+    width: 47%;
+    height: 350px;
+    margin:0px 20px;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-775.jpg);
+   
+    background-size: cover;
+}
+.box-ads2{
+    width: 47%;
+    height: 350px;
+    margin:0px 20px;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-776.jpg);
+    background-size: cover;
+}
+
+.box-addetail1{
+    padding-left: 50px;
+    text-align: left;
+    font-family:  "Noto Sans", sans-serif;
+    color: #555555;
+    line-height: 40px;
+   
+    padding-top: 100px;
+}    
+.box-addetail2{
+    padding-right: 50px;
+    text-align: right;
+    font-family:  "Noto Sans", sans-serif;
+    color: #555555;
+    line-height: 40px;
+   
+    padding-top: 100px;
+}
+.ad-head{
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    color: #2a2e4d;
+
+}
+
+.container-products{
+    max-width: 90%;
+    margin: 100px auto;
+}
+
+.d-flex1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.prod-title{
+    text-align: center;
+    margin-top: 100px; 
+    
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px; 
+    flex-wrap: wrap;
+}
+
+.prod{
+    width: 33.33%;
+    border: 1px dashed gainsboro;
+    padding: 35px;
+
+}
+
+.sub-prod{
+    text-align: center;
+}
+
+.price-prod{
+    margin-bottom: 25px;
+}
+
+.img-prod{
+    height: 210px;
+    position: relative;
+}
+
+.img-prod img{
+    height: 100%;
+}
+
+.img-prod::before{
+    content: "Sale";
+    background-color:#574CAE;
+    color: white;
+    padding: 5px 10px;
+    border-radius:20px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.product-head{
+    font-family: "Libre Baskerville", serif;
+    color: #2a2e4d;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.product1{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.photo1{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-image-05-01.jpg/2276408000000070023/400x400);
+    background-size: cover;
+}
+.photo1A{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-image-05-01.jpg/2276408000000070023/400x400);
+    background-size: cover;
+}
+.photo1A::before{
+    content: "sale";
+    background-color: #2a2e4d;
+    color: white;
+    border-radius: 6px;
+}
+.photo2{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-02-01.jpeg/2276408000000070083/400x400);
+    background-size: cover;
+    border: 1px dotted gray;
+}
+.photo2::before{
+    content: "sale";
+    background-color: #2a2e4d;
+    color: white;
+    border-radius: 6px;
+}
+.photo3{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-05-01.jpeg/2276408000000073419/400x400);
+    background-size: cover;
+    border: 1px dotted gray;
+}
+.photo4{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-04-01.jpeg/2276408000000070051/400x400);
+    background-size: cover;
+    border: 1px dotted gray;
+}
+.product2{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product3{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product4{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product5{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product6{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.container-deals{
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-777.jpg);
+    background-position: center;
+}
+.d-flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box-deal{
+    width: 60%;
+    padding: 20px;
+    margin: 150px;
+    background-color: #0B1C2D;
+    color: white;
+    text-align: center;
+}
+.container-models{
+    max-width: 90%;
+    margin: 50px auto;
+}
+.box-model1{
+    width: 32%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #f5e8e8;
+}
+.box-model2{
+    width: 32%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #e5eff2;
+}
+.box-model3{
+    width: 32%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #f4f0e8;
+}
+.container-adboard{
+    max-width:100%;
+    height: 500px;
+    margin: 50px 0px;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-781.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box-adbannerdetails{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-family:  "Noto Sans", sans-serif;
+}
+.container-refer{
+    max-width: 90%;
+    margin: 50px auto;
+}
+.box-refertitle{
+    width: 100%;
+    margin: 50px;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border-bottom: 1px solid #2a2e4d;
+}
+.box-refer{
+    width: 25%;
+    padding: 30px;
+}
+.container-lastbanner{
+    max-width: 90%;
+    height: 500px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-782.jpg);
+
+}
+.box-lastbanner1{
+    width: 50%;
+    text-align: center;
+}
+.banner-text{
+    font-size: 32px;
+}
+.banner-btn{
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #2a2e4d;
+    color: #2a2e4d;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.banner-btn:hover{
+    background-color: #2a2e4d;
+    color: white;
+}
+.box-lastbanner2{
+    width: 50%;
+    height: 100%;
+}
+.container-footer1{
+    max-width: 100%;
+    height: 100px;
+    background-color: #1f1b3c;
+}
+.box-footerA1{
+    width: 50%;
+    padding-left: 100px;
+    padding-top:30px ;
+    font-size: 20px;
+}
+.box-footerA2{
+    width: 50%;
+    padding-top: 30px;
+}
+.footer-inputA{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+.footer-btn{
+    margin: 5px;
+    width: 130px;
+    height: 40px;
+    background-color: #574cae;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+.footer-btn:hover{
+    background-color: #574cd1;
+}
+.container-footer2{
+    max-width: 100%;
+    height: 330px;
+    padding: 50px;
+    background-color: #2a2e4d;
+}
+.box-footericon{
+    width: 25%;
+    text-align: center;
+    border-bottom: 1px solid ;
+
+}
+.box-ender{
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: gainsboro;
+}
